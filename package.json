@@ -243,7 +243,8 @@
     },
     "lint-staged": {
         "*.js": [
-            "standard --fix", "git add"
+            "standard --fix",
+            "git add"
         ]
     },
     "husky": {
