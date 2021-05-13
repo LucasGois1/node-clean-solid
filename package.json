@@ -237,6 +237,10 @@
         "yallist": "^4.0.0",
         "yaml": "^1.10.2"
     },
+
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
     "lint-staged": {
         "*.js": [
             "standard --fix", "git add"
@@ -246,9 +250,6 @@
         "hooks": {
             "pre-commit": "lint-staged"
         }
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
         "type": "git",
